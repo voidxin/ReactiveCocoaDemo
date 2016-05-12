@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXCustomerViewController.h
 //  ReactiveCocoaDemo
 //
 //  Created by 张新 on 16/5/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZXCustomerViewController : UIViewController
 
 @end
-

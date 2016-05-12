@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZXCustomerViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.bounds=[UIScreen mainScreen].bounds;
+    self.window.backgroundColor=[UIColor whiteColor];
+    ZXCustomerViewController *customerVC=[[ZXCustomerViewController alloc]init];
+    self.window.rootViewController=customerVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
